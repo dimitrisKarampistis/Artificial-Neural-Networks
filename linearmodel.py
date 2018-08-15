@@ -34,3 +34,6 @@ class linearModel:
         y_vals = m * x_vals + b
         plt.plot(x_vals, y_vals, c = '#8B008B')
         plt.show()
+    
+    def lineFormula():
+        print('y =', m, '* x +', b)
